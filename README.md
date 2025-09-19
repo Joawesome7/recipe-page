@@ -2,10 +2,11 @@
 
 ### Screenshot
 
+<img width="1600" height="1652" alt="recipe-page" src="https://github.com/user-attachments/assets/5f0b962f-e86b-47c8-96b6-f74e478eb54f" />
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://your-live-site-url.com)
 
 
 ## My process
@@ -18,7 +19,7 @@
 
 ### What I learned
 
-I'm in day 3 of doing frontend mentor chalenge and to be honest doing css without frameworks is hard compare with frameworks but It's part of my commitment to learn things from the core
+I'm in day 3 of doing frontend mentor challenge and to be honest doing css without frameworks is hard compare with frameworks but It's part of my commitment to learn things from the core
 
 ```css
 .proud-of-this-css {
