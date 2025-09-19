@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+/* <uniquifier>: Use a unique and descriptive class name */
+
+/* .outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(330, 100%, 98%);
+    /* padding: clamp(1rem, 3vw, 1.5rem); */
+}
+
+.recipe-container {
+    border-radius: 15px;
+
+    margin: 0 auto;
+
+    background-color: hsl(0, 0%, 100%);
+    
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+
+.taco-img {
+    max-width: 700px;
+    border-radius: 1rem;
+    overflow: hidden; 
+}
+
+.taco-img img {
+    width: 100%;
+    max-height: 300px;
+    height: auto;
+    object-fit: cover; 
+    display: block;
+    padding: clamp(0rem, 2vw, 2.5rem) clamp(0rem, 2vw, 2.5rem) 0;
+}
+
+header,
+section {
+    padding: 0 clamp(1.75rem, 2vw, 2.5rem);
+}
+
+.title {
+    margin-top: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1.80rem, 4vw, 3rem);
+    line-height: 1.2; 
+}
+
+.title-desc {
+    margin-top: 1em;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+}
+
+.prep {
+    margin: clamp(1rem, 2.5vw, 1.5rem);
+    padding: clamp(1rem, 3vw, 1.5rem);   
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.75rem;              
+}
+
+.prep h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    margin-bottom: 0.75em;
+}
+
+.text,
+section li,
+section td {
+    color: hsl(30, 10%, 34%);
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    line-height: 1.6;                     
+}
+
+
+section h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: clamp(1.5rem, 2vw, 1.75rem);
+    font-family: "Young serif", sans-serif;
+    margin: 2.25rem 0 1.5rem 0;
+}
+
+section li {
+    padding-left: 1.5rem;
+}
+
+section li::marker,
+.nutrition .gram {
+    color: hsl(14, 45%, 36%);
+}
+
+strong {
+    margin-left: 1em;
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+}
+
+ul, 
+ol {
+    margin: 0 1em;
+    line-height: 2em;
+}
+
+.instructions span {
+    font-weight: 700;
+}
+
+.nutrition {
+    max-width: 100%;
+    margin-bottom: clamp(1.5rem, 2vw, 2rem);
+}
+
+.nutrition table {
+    width: calc(100% - 1.5rem);
+    border-collapse: collapse;
+    line-height: 3;
+}
+
+.nutrition p {
+    margin-bottom: 1rem;
+}
+
+.nutrition td {
+    padding-left: 2rem;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+hr {
+    color: hsl(0, 14.3%, 95.9%);
+    font-weight: 300;
+    margin: 1.5rem auto;
+    border: none; 
+    border-bottom: 1px solid #ccc;
+}
